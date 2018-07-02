@@ -1,0 +1,866 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fff">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </head>
+  <body>
+
+    <div class="header">
+        <div class="in">
+            <div class="header__nav">
+                
+                <a href="index.html" class="logo">
+                    <img src="img/logo.png" alt="">
+                    <p>RosFile.ru</p>
+                </a>
+
+                <nav>   
+                  <div id="nav-mob"></div>
+                </nav>
+
+                <ul>
+                    <li>
+                        <a href="#">ЕГРЮЛ</a>
+                    </li>
+            
+                    <li>
+                        <a href="#">Выписка с печатью ФНС</a>
+                    </li>
+            
+                    <li>
+                        <a href="#">Выписка из ЕГРИП</a>
+                    </li>
+            
+                    <li>
+                        <a href="#">Вопрос / Ответ</a>
+                    </li>
+            
+                    <li>
+                        <a href="#">О сервисе</a>
+                    </li>
+            
+                    <li>
+                        <a href="#">Тех. поддержка</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="out">
+        <div class="block1">
+            <div class="in">
+                <div class="block1__statement">
+                    <img src="img/fns.png" alt="">
+                    <div>
+                        <p>Официальная выписка из ЕГРЮЛ по ИНН / ОГРН</p>
+                        <span>Онлайн сервис по выдаче официальных выписок из ЕГРЮЛ с сайта налоговой ФНС и других документов по РФ. <br>Выписки без электронной подписи предоставляются бесплатно и в ускоренном режиме. </span>
+                    </div>
+                </div>
+                <div class="block1__search">
+                    <p>Поиск:</p>
+                    <div class="search">
+                        <div class="search__input">
+                            <input type="text" placeholder="Введите ИНН или ОГРН или Название организации">
+                            <p>Пример:   <a href="#">7798473878</a>  или   <a href="#">304874357794</a>  или  <a href="#">ООО ЛифтМаш</a></p>
+                            <div class="search__result">
+                                <div class="search__result-caption">
+                                    <p>Найденные совпадения:</p>
+                                </div>
+                                <div class="search__result-items">
+                                    <div class="search__result-item">
+                                        <div class="search__result-name">
+                                            ООО “Морепродукты и просторы природы матушки”
+                                        </div>
+                                        <div class="search__result-data">
+                                            <p>ИНН 3<span>663438494</span></p>
+                                            <p>ОГРН 3273874234 </p>
+                                            <p>г. Краснодарский край</p>
+                                        </div>
+                                    </div>
+                                    <div class="search__result-item">
+                                        <div class="search__result-name">
+                                            ООО “Морепродукты и просторы природы матушки”
+                                        </div>
+                                        <div class="search__result-data">
+                                            <p>ИНН 3<span>663438494</span></p>
+                                            <p>ОГРН 3273874234 </p>
+                                            <p>г. Краснодарский край</p>
+                                        </div>
+                                    </div>
+                                    <div class="search__result-item">
+                                        <div class="search__result-name">
+                                            ООО “Морепродукты и просторы природы матушки”
+                                        </div>
+                                        <div class="search__result-data">
+                                            <p>ИНН 3663438494</p>
+                                            <p>ОГРН 3273874234 </p>
+                                            <p>г. Краснодарский край</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="search__result-bot">
+                                    <p>Всего найдено:   232 шт. </p>
+                                    <a href="#">показать все  ></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn">
+                            Найти >
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="block1__result">
+                    <div class="block1__result-caption">
+                        <p>Найдено соответствий:  2 шт.</p>
+                    </div>
+                    <div class="block1__result-item">
+                        <div class="block1__result-content">
+                            <img src="img/doc-mini.png" alt="">
+                            <div class="block1__result-info">
+                                <div class="block1__result-capt">
+                                    ООО “ЛифтМашСтройКомплексАгроФорм 1500”
+                                </div>
+                                <div class="block1__result-p">
+                                    <p>ИНН  32664387794</p>
+                                    <p>ОГРН  32664387794</p>
+                                    <p>Владимирская обл.</p>
+                                </div>
+                            </div>                    
+                        </div>
+                        <div class="block1__result-buttons">
+                            <div>
+                                <img src="img/download.png" alt="">
+                                <p>Скачать PDF</p>
+                                <span>
+                                    без печати
+                                </span>
+                            </div>
+                            <div>
+                                <img src="img/mail.png" alt="">
+                                <p>Отправить</p>
+                                <span>
+                                    на e-mail
+                                </span>
+                            </div>
+                            <div>
+                                <img src="img/seal.png" alt="">
+                                <p>С печатью ФНС</p>
+                                <span>
+                                    выписка с ЭЦП
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block1__result-item block1__result-liquidated">
+                        <div class="block1__result-content">
+                            <img src="img/doc-mini.png" alt="">
+                            <div class="block1__result-info">
+                                <div class="block1__result-capt">
+                                    ООО “ЛифтМашСтройКомплексАгроФорм 1500”
+                                </div>
+                                <div class="block1__result-p">
+                                    <p>ИНН  32664387794</p>
+                                    <p>ОГРН  32664387794</p>
+                                    <p>Владимирская обл.</p>
+                                </div>
+                            </div>                    
+                        </div>
+                        <div class="block1__result-buttons">
+                            <div>
+                                <img src="img/download.png" alt="">
+                                <p>Скачать PDF</p>
+                                <span>
+                                    без печати
+                                </span>
+                            </div>
+                            <div>
+                                <img src="img/mail.png" alt="">
+                                <p>Отправить</p>
+                                <span>
+                                    на e-mail
+                                </span>
+                            </div>
+                            <div>
+                                <img src="img/seal.png" alt="">
+                                <p>С печатью ФНС</p>
+                                <span>
+                                    выписка с ЭЦП
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block1__result-item">
+                        <div class="block1__result-content">
+                            <img src="img/doc-mini.png" alt="">
+                            <div class="block1__result-info">
+                                <div class="block1__result-capt">
+                                    ООО “ЛифтМашСтройКомплексАгроФорм 1500”
+                                </div>
+                                <div class="block1__result-p">
+                                    <p>ИНН  32664387794</p>
+                                    <p>ОГРН  32664387794</p>
+                                    <p>Владимирская обл.</p>
+                                </div>
+                            </div>                    
+                        </div>
+                        <div class="block1__result-buttons">
+                            <div>
+                                <img src="img/download.png" alt="">
+                                <p>Скачать PDF</p>
+                                <span>
+                                    без печати
+                                </span>
+                            </div>
+                            <div>
+                                <img src="img/mail.png" alt="">
+                                <p>Отправить</p>
+                                <span>
+                                    на e-mail
+                                </span>
+                            </div>
+                            <div>
+                                <img src="img/seal.png" alt="">
+                                <p>С печатью ФНС</p>
+                                <span>
+                                    выписка с ЭЦП
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="block1__data">
+                    <div class="block1__data-caption">
+                        Последние полученные выписки из базы ЕГРЮЛ и ЕГРИП:
+                    </div>
+                    <div class="block1__data-items">
+                        <div class="block1__data-item">
+                            <a href="#">
+                                <img src="img/doc.png" alt="">
+                                <img src="img/pdf.png" alt="" class="block1__data-pdf">
+                                <div>
+                                    <p>Открыть</p>
+                                </div>
+                            </a>
+                            <div>
+                                <p>ООО “Россельхоз МашМаркетРоссиии”</p>
+                                <span>г. Санкт-Петербург</span>
+                                <a href="#">ИНН 7712040126</a>
+                                <div class="block1__data-views">
+                                    <img src="img/views.png" alt="">
+                                    <p>16</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block1__data-item">
+                            <a href="#">
+                                <img src="img/doc.png" alt="">
+                                <img src="img/pdf.png" alt="" class="block1__data-pdf">
+                                <div>
+                                    <p>Открыть</p>
+                                </div>
+                            </a>
+                            <div>
+                                <p>ООО “Россельхоз МашМаркетРоссиии”</p>
+                                <span>г. Санкт-Петербург</span>
+                                <a href="#">ИНН 7712040126</a>
+                                <div class="block1__data-views">
+                                    <img src="img/views.png" alt="">
+                                    <p>16</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block1__data-item">
+                            <a href="#">
+                                <img src="img/doc.png" alt="">
+                                <img src="img/pdf.png" alt="" class="block1__data-pdf">
+                                <div>
+                                    <p>Открыть</p>
+                                </div>
+                            </a>
+                            <div>
+                                <p>ООО “Россельхоз МашМаркетРоссиии”</p>
+                                <span>г. Санкт-Петербург</span>
+                                <a href="#">ИНН 7712040126</a>
+                                <div class="block1__data-views">
+                                    <img src="img/views.png" alt="">
+                                    <p>16</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block1__data-item">
+                            <a href="#">
+                                <img src="img/doc.png" alt="">
+                                <img src="img/pdf.png" alt="" class="block1__data-pdf">
+                                <div>
+                                    <p>Открыть</p>
+                                </div>
+                            </a>
+                            <div>
+                                <p>ООО “Россельхоз МашМаркетРоссиии”</p>
+                                <span>г. Санкт-Петербург</span>
+                                <a href="#">ИНН 7712040126</a>
+                                <div class="block1__data-views">
+                                    <img src="img/views.png" alt="">
+                                    <p>16</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block1__data-items">
+                        <div class="block1__data-item">
+                            <a href="#">
+                                <img src="img/doc.png" alt="">
+                                <img src="img/pdf.png" alt="" class="block1__data-pdf">
+                                <div>
+                                    <p>Открыть</p>
+                                </div>
+                            </a>
+                            <div>
+                                <p>ООО “Россельхоз МашМаркетРоссиии”</p>
+                                <span>г. Санкт-Петербург</span>
+                                <a href="#">ИНН 7712040126</a>
+                                <div class="block1__data-views">
+                                    <img src="img/views.png" alt="">
+                                    <p>16</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block1__data-item">
+                            <a href="#">
+                                <img src="img/doc.png" alt="">
+                                <img src="img/pdf.png" alt="" class="block1__data-pdf">
+                                <div>
+                                    <p>Открыть</p>
+                                </div>
+                            </a>
+                            <div>
+                                <p>ООО “Россельхоз МашМаркетРоссиии”</p>
+                                <span>г. Санкт-Петербург</span>
+                                <a href="#">ИНН 7712040126</a>
+                                <div class="block1__data-views">
+                                    <img src="img/views.png" alt="">
+                                    <p>16</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block1__data-item">
+                            <a href="#">
+                                <img src="img/doc.png" alt="">
+                                <img src="img/pdf.png" alt="" class="block1__data-pdf">
+                                <div>
+                                    <p>Открыть</p>
+                                </div>
+                            </a>
+                            <div>
+                                <p>ООО “Россельхоз МашМаркетРоссиии”</p>
+                                <span>г. Санкт-Петербург</span>
+                                <a href="#">ИНН 7712040126</a>
+                                <div class="block1__data-views">
+                                    <img src="img/views.png" alt="">
+                                    <p>16</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block1__data-item">
+                            <a href="#">
+                                <img src="img/doc.png" alt="">
+                                <img src="img/pdf.png" alt="" class="block1__data-pdf">
+                                <div>
+                                    <p>Открыть</p>
+                                </div>
+                            </a>
+                            <div>
+                                <p>ООО “Россельхоз МашМаркетРоссиии”</p>
+                                <span>г. Санкт-Петербург</span>
+                                <a href="#">ИНН 7712040126</a>
+                                <div class="block1__data-views">
+                                    <img src="img/views.png" alt="">
+                                    <p>16</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="block2">
+            <div class="in">
+                <div class="block2__caption">
+                    Варианты получения - выписок из ЕГРЮЛ для граждан РФ 
+                </div>
+                <div class="block2__items">
+                    <div class="block2__item">
+                        <img src="img/1seal.png" alt="">
+                        <div class="block2__caption-mini">
+                            <p>Без печати ФНС</p>
+                        </div>
+                        <p>
+                            Выписка - информационная, предоставляется бесплатно, но без официальной печати. Не является документом и не имеет юр. силы. Подходит для ознакомления.
+                        </p>
+                        <div class="block2__info">
+                            <div>
+                                <div class="block2__info-img">
+                                    <img src="img/clock.png" alt="">
+                                </div>
+                                <p>Срок: <span>1-5 мин.</span></p>
+                            </div>
+                            <div>
+                                <div class="block2__info-img">
+                                    <img src="img/seal2.png" alt="">
+                                </div>
+                                <p>Печать: <span>Отсутствует </span></p>
+                            </div>
+                            <div>
+                                <div class="block2__info-img">
+                                    <img src="img/el-pdf.png" alt="">
+                                </div>
+                                <p>Формат: <span>Электронный PDF</span></p>
+                            </div>
+                            <div>
+                                <div class="block2__info-img">
+                                    <img src="img/rub.png" alt="">
+                                </div>
+                                <p>Стоимость: <span>Бесплатно.</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="block2__item block2__item-center">
+                        <img src="img/2seal.png" alt="">
+                        <div class="block2__caption-mini">
+                            <p>Срочная С печатью ФНС</p>
+                        </div>
+                        <p>
+                            Официальная выписка с электронной подписью ФНС. Имеет юридическую силу и равна бумажной выписке. Подходит для предоставления в суды, органы, инстанции и отчетности.
+                        </p>
+                        <div class="block2__info">
+                            <div>
+                                <div class="block2__info-img">
+                                    <img src="img/clock.png" alt="">
+                                </div>
+                                <p>Срок: <span>10-15 мин.</span></p>
+                            </div>
+                            <div>
+                                <div class="block2__info-img">
+                                    <img src="img/seal2.png" alt="">
+                                </div>
+                                <p>Печать: <span>Да, печать ЭЦП (.sig) </span></p>
+                            </div>
+                            <div>
+                                <div class="block2__info-img">
+                                    <img src="img/el-pdf.png" alt="">
+                                </div>
+                                <p>Формат: <span>Электронный PDF</span></p>
+                            </div>
+                            <div>
+                                <div class="block2__info-img">
+                                    <img src="img/rub.png" alt="">
+                                </div>
+                                <p>Стоимость: <span>350 руб.</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="block2__item">
+                        <img src="img/3seal.png" alt="">
+                        <div class="block2__caption-mini">
+                            <p>Бумажная из МФЦ</p>
+                        </div>
+                        <p>
+                            Выписка из ЕГРЮЛ на бумажном носителе с печатью ФНС доступна в отделениях МФЦ или с доставкой курьером по РФ.
+                        </p>
+                        <div class="block2__info">
+                            <div>
+                                <div class="block2__info-img">
+                                    <img src="img/clock.png" alt="">
+                                </div>
+                                <p>Срок: <span>3 рабочих дня</span></p>
+                            </div>
+                            <div>
+                                <div class="block2__info-img">
+                                    <img src="img/seal2.png" alt="">
+                                </div>
+                                <p>Печать: <span>С обычной печатью</span></p>
+                            </div>
+                            <div>
+                                <div class="block2__info-img">
+                                    <img src="img/el-pdf.png" alt="">
+                                </div>
+                                <p>Формат: <span>Бумажный носитель</span></p>
+                            </div>
+                            <div>
+                                <div class="block2__info-img">
+                                    <img src="img/rub.png" alt="">
+                                </div>
+                                <p>Стоимость: <span>850 руб.</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="block3">
+            <div class="in">
+                <div class="block3__content">
+                    <div class="block3__caption">
+                        Что такое выписка из ЕГРЮЛ
+                    </div>
+                    <p>
+                        Выписка из ЕГРЮЛ или ЕГРИП - это официальный документ, выдаваемый Федеральной Налоговой Службой ФНС, который содержит основные, открытые сведения о государственной регистрации юридического лица или индивидуального предпринимателя.
+                    </p>
+                    <p class="block3__divider">
+                        В выписке ЕГРЮЛ указаны следующие пункты:
+                    </p>
+                    <ul>
+                        <li>- Наименование юр лица</li>
+                        <li>- Полный Адрес</li>
+                        <li>- Коды ОКВЭД</li>
+                        <li>- Реквизиты (ИНН, ОГРН, ОКАТО, ОКПО)</li>
+                        <li>- Сведения о регистрации</li>
+                        <li>- Информация от ПФР</li>
+                        <li>- Фонд социального страхования</li>
+                        <li>- Уставной капитал</li>
+                        <li>- Доверенности</li>
+                        <li>- Учредители </li>
+                        <li>- Виды деятельности</li>
+                        <li>- Лицензии основные</li>
+                        <li>- Записи об изменениях</li>
+                        <li>- и другие пункты информации...</li>
+                    </ul>
+                </div>
+                <div class="img">
+                    <img src="img/doc2.png" alt="">
+                    <span>Образец бесплатной выписки из ЕГРЮЛ <br>в электронном виде PDF</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="block4">
+            <div class="in">
+                <div class="block4__caption">
+                    Как срочно получить официальную выписку из ЕГРЮЛ:
+                </div>
+                <div class="block4__content">
+                    <div class="block4__iframe">
+                        <iframe width="854" height="480" src="https://www.youtube.com/embed/Bb7RufKnt3E?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <span>Смотрите видео инструкцию по заказу <br>срочной выписки из ЕГРЮЛ</span>
+                    </div>
+                    <div class="block4__instruction">
+                        <div class="block4__instruction-caption">
+                            <img src="img/information.png" alt="">
+                            <p>Инструкция</p>
+                        </div>
+                        <p>Для получения срочной выписки из ЕГРЮЛ достаточно заказать её онлайн и получить через 15 минут на E-mail.</p>
+
+                        <p>1) Введите в строке поиска выше ИНН или ОГРН или название компании и выберите его из списка.</p>
+
+                        <p>2) Далее вы увидите результаты поиска и сможете сразу бесплатно скачать “Информационную выписку из ЕГРЮЛ” в формате PDF. Для этого нажмите “Скачать” и файл откроется.</p>
+
+                        <p>3) Если требуется официальный документ с печатью Налоговой, то выберите “С печатью ФНС”, далее введите E-mail и оплатите выписку согласно тарифу. Через 15 минут на почту поступит документ с электронной подписью ФНС.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="block5">
+            <div class="in">
+                <div class="block5__content">
+                    <div>
+                        <p>Информация о юридических лицах размещается в публичном доступе, согласно Федеральному Закону Российской Федерации № 129 от 2001 года, пунктом 8 статьи 6, а так же приказом № 115 Министерства Финансов от 05.12.2013 года.</p>
+                        <p>Выписку из ЕГРЮЛ или ЕГРИП можно запросить по любому юридическому лицу, работающему в правовом поле РФ. Документы предоставляются из официальной базы Федеральной Налоговой Службы Nalog.ru</p>
+                    </div>
+                    <div class="img">
+                        <img src="img/fns2.png" alt="">
+                    </div>
+                </div>
+                <div class="block5__text">
+                    <p class="block5__bold">
+                        О сервисе и выдаче выписок из ЕГРЮЛ:
+                    </p>
+                    <p>Единый Реестр Юридических Лиц (ЕГРЮЛ) - создан для ведения учёта организаций и индивидуальных предпринимателей, ведущих предпринимательскую деятельность на территории РФ, а так же обеспечения прозрачности и безопасности в бизнес среде. Реестр содержит информацию более чем о 4 миллионах компаний.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="block6">
+            <div class="in">
+                <div>
+                    <p class="block6__bold">
+                        География выдачи выписок ЕГРЮЛ в городах РФ через МФЦ:
+                    </p>
+                    <p>
+                        Выдача выписок производится практически во всех регионах страны: город Москва, Московская область, город Санкт-Петербург, Ленинградская область, Новосибирск, Екатеринбург, Нижний Новгород, Казань, Челябинск, Омск, Самара, Ростов-на-Дону, Уфа, Красноярск, Пермь, Воронеж, Волгоград, Хабаровск, Владимир, Белгород, Липецк, Курск, и другие... 
+                    </p>
+                    <span>*Все регионы могут получить выписку через интернет на данном сайте.</span>
+                </div>
+                <img src="img/map.png" alt="">
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="in">
+                <div class="footer__main">
+                    <div class="footer__top">
+                        <div class="footer__block">
+                            <div class="footer_logo">
+                                <a href="index.html" class="logo">
+                                    <img src="img/logo.png" alt="">
+                                    <p>RosFile.ru</p>
+                                </a>
+                            </div>
+                            <span>
+                                Rosfile - онлайн сервис для получения срочных выписок из ЕГРЮЛ и документов из ФНС для граждан РФ.
+                            </span>
+                            <span>
+                                E-mail:  info@rosfile.ru
+                            </span>
+                            <div class="footer__socials">
+                                <a href="#">
+                                    <img src="img/vk.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="img/fb.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer__block">
+                            <div class="footer__caption">
+                                <p>Онлайн сервисы:</p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="#">Выписка ЕГРЮЛ с электронной подписью ФНС</a>
+                                </li>
+                                <li>
+                                    <a href="#">Выписка из ЕГРИП</a>
+                                </li>
+                                <li>
+                                    <a href="#">Сайт ФНС</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__block">
+                            <div class="footer__caption">
+                                <p>Основные разделы:</p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="#">О сервисе</a>
+                                </li>
+                                <li>
+                                    <a href="#">Вопрос / Ответ </a>
+                                </li>
+                                <li>
+                                    <a href="#">Контакты</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__bot">
+                        <div>
+                            <img src="img/likes.png" alt="">
+                        </div>
+                        <div>
+                            <img src="img/https.png" alt="">
+                            <img src="img/visa.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__second">
+                <div class="in">
+                    <p>(c)  2017-2018  Сервис Rosfile.ru </p>
+                    <div>
+                        <a href="#">Политика конфинденциальности</a>
+                        <a href="#">Правила и соглашение сервиса</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="popup popup1">
+        <div id="popup__active1" class="popup__active">
+            <div class="in">
+                <div class="popup__left">
+                    <div class="popup__caption">
+                        <p>Отправить выписку ЕГРЮЛ на E-mail</p>
+                    </div>
+                    <p class="popup__text">
+                        ООО “Пей смузи и делай стартапы”, ИНН 326737642, ОГРН 32789476324, г. Москва, ул. Аркаина-Разейкина 63, строение 4, корп 2. офис 434
+                    </p>
+                    <div class="popup__block1">
+                        <div>
+                            <p>Прямая ссылка на документ:</p>
+                            <a href="#">https://rosfile.ru/erul/437473844.pdf</a>
+                        </div>
+                        <div>
+                            <p>Отправить:</p>
+                            <div class="popup__socials">
+                                <a href="#"><img src="img/vk.png" alt=""></a>
+                                <a href="#"><img src="img/fb.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popup__block2">
+                        <span>- Выберите нужные выписки для получения:</span>
+                        <div class="popup__item popup__item1">
+                            <div>
+                                <div class="popup__checkbox popup__checkbox1">
+                                    <input type="checkbox" id="checkbox1">
+                                    <label for="checkbox1"></label>
+                                </div>
+                                <div class="popup__item-text">
+                                    <div class="popup__item-caption">Выписка ЕГРЮЛ без печати (pdf)</div>
+                                </div>
+                            </div>
+                            <div class="popup__price">
+                                <p>0 руб.</p>
+                            </div>
+                        </div>
+                        <div class="popup__item popup__item2">
+                            <div>
+                                <div class="popup__checkbox popup__checkbox2">
+                                    <input type="checkbox" id="checkbox2" checked>
+                                    <label for="checkbox2"></label>
+                                </div>
+                                <div class="popup__item-text">
+                                    <div class="popup__item-caption">
+                                        <p>Выписка ЕГРЮЛ с эл. подписью ФНС</p>
+                                        <div class="img">
+                                            <img src="img/pdf2.png" alt="">
+                                            <img src="img/check-symbol.png" alt="">
+                                        </div>
+                                    </div>
+                                    <p>Это выписка, которая официально подписывается Налоговой службой и имеет порядковый номер и печать ФНС. Является юридическим документом и равнозначен бумажной выписке.</p>
+                                </div>
+                            </div>
+                            <div class="popup__price">
+                                <p>350 руб.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popup__block3">
+                        <p>На этот e-mail поступит выписка:</p>
+                        <form action="">
+                            <div class="popup__block3-input">
+                                <input type="text" placeholder="Введите E-mail">
+                                <img src="img/email.png" alt="">
+                            </div>
+                            <div class="popup__block3-agree">
+                                <div class="popup__block3-checkbox">
+                                    <input type="checkbox" id="checkbox3">
+                                    <label for="checkbox3"></label>
+                                </div>
+                                <p>Соглашаюсь на обработку персон. данных и с услвоиями сервиса</p>
+                            </div>
+                            <button type="submit">Отправить выписку на E-mail  ></button>
+                        </form>
+                    </div>
+                    
+                </div>
+                <div class="popup__right" id="popup__right1">
+                    <img src="img/popup1.png" alt="">
+                    <span>
+                        Выписка без печати, является информационным письмом для ознакомления. Отображает реальные сведения.
+                    </span>
+                </div>
+                <div class="popup__right" id="popup__right2">
+                    <img src="img/popup2.png" alt="">
+                    <span>
+                        Выписка с электронной подписью ФНС является юр. документом для отчетности и предоставления в инстанции
+                    </span>
+                </div>
+                <div class="popup__close"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup popup2">
+        <div id="popup__active2" class="popup__active">
+            <div class="in">
+                <div class="popup__left">
+                    <div class="popup__caption">
+                        <p>Выписка ЕГРЮЛ с печатью ФНС (ЭЦП)</p>
+                    </div>
+                    <p class="popup__text">
+                        Это выписка, которая официально подписывается Налоговой службой и имеет порядковый номер и печать ФНС. Является юридическим документом и равнозначен бумажной выписке.
+                    </p>
+                    <div class="popup__block4">
+                        <span>- Выберите нужные выписки для получения:</span>
+                        <div class="popup__item popup__item3">
+                            <div class="popup__item3-top">
+                                <div>
+                                    <img src="img/pdf.png" alt="">
+                                    <div class="popup__item-text">
+                                        <div class="popup__item-caption">Выписка ЕГРЮЛ без печати (pdf)</div>
+                                    </div>
+                                </div>
+                                <img src="img/check-symbol.png" alt="" class="popup__item3-abs">
+                            </div>
+                            <div class="popup__item3-info">
+                                <p>ООО “Пей смузи и делай стартапы”, ИНН 326737642, ОГРН 32789476324, г. Москва, ул. Аркаина-Разейкина 63, строение 4, корп 2. офис 434</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popup__block3">
+                        <div class="popup__block3-p">
+                            <p>На этот e-mail поступит выписка:</p>
+                            <a href="#">Отправьте лучше по SMS</a>
+                        </div>
+                        <form action="">
+                            <div class="popup__block3-input">
+                                <input type="text" placeholder="Введите E-mail">
+                                <img src="img/share.png" alt="" class="popup2__imgabs">
+                            </div>
+                            <div class="popup__block3-select">
+                                <select>
+                                    <option>Оплата банковской картой (Visa/Mastercard)</option> 
+                                    <option>Оплата банковской картой (Visa/Mastercard)</option>
+                                    <option>Оплата банковской картой (Visa/Mastercard)</option>
+                                </select>
+                            </div>
+                            <div class="popup__block3-agree">
+                                <div class="popup__block3-checkbox">
+                                    <input type="checkbox" id="checkbox4">
+                                    <label for="checkbox4"></label>
+                                </div>
+                                <p>Соглашаюсь на обработку персон. данных и с услвоиями сервиса</p>
+                            </div>
+                            <button class="popup2__submit">
+                                <div>290 руб.</div>
+                                <p>Получить выписку c печатью ></p>
+                            </button>
+                            <div class="popup2__span">
+                                *Выписка будет доступна сразу после оплаты. Стоимость взымается согласно тарифам.
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="popup__right">
+                    <img src="img/popup2.png" alt="">
+                    <span>
+                        Выписка с подписью ФНС является юр. документом для отчетности и предоставления в инстанции
+                    </span>
+                </div>
+                <div class="popup__close"></div>
+            </div>
+        </div>
+        
+    </div>
+
+  </body>
+</html>
